@@ -117,3 +117,11 @@ body {
     background-color: #0C0A09;
     font-family: "Poppins", sans-serif;
 }
+.terminal {
+    border-radius: var(--rounded-3xl, 24px);
+background: radial-gradient(168.84% 133.45% at 1.69% 1.74%, rgba(250, 250, 249, 0.20) 0%, rgba(120, 113, 108, 0.20) 50%, rgba(250, 250, 249, 0.20) 100%);
+backdrop-filter: blur(60px);
+color: #00ff00;
+
+font-family: "Courier New", Courier, monospace;
+}
